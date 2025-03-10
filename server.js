@@ -50,7 +50,7 @@ app.get('/api', (req, res) => {
     res.json({ message: 'This is an API response.' });
 });
 
-// Create HTTP server for Socket.IO
+// Create HTTP server for Socket.Ia
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
